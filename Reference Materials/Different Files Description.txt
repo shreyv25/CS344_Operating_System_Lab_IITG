@@ -1,0 +1,13 @@
+ user.h contains the system call definitions in xv6. You will need to add code here for your
+new system calls.
+ usys.S contains a list of system calls exported by the kernel.
+ syscall.h contains a mapping from system call name to system call number. You must add to
+these mappings for your new system calls.
+ syscall.c contains helper functions to parse system call arguments, and pointers to the actual
+system call implementations.
+ sysproc.c contains the implementations of process related system calls. You will add your
+system call code here.
+ proc.h contains the struct proc structure. You may need to make changes to this structure to
+track any extra information about a process.
+ proc.c contains the function scheduler which performs scheduling and context switching
+between processes.

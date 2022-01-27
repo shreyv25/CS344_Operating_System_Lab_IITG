@@ -1,0 +1,2 @@
+The patch file doesn't contains the created files.
+Copy the contents of 'Created Files' folder separately.
